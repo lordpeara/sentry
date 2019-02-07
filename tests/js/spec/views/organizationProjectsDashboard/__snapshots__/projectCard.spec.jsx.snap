@@ -763,6 +763,7 @@ exports[`ProjectCard renders 1`] = `
                               size="xsmall"
                             >
                               <StyledButton
+                                aria-disabled={false}
                                 aria-label="Track deploys"
                                 disabled={false}
                                 external={true}
@@ -772,19 +773,18 @@ exports[`ProjectCard renders 1`] = `
                                 size="xsmall"
                               >
                                 <Component
+                                  aria-disabled={false}
                                   aria-label="Track deploys"
                                   className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                  disabled={false}
-                                  external={true}
                                   href="https://docs.sentry.io/learn/releases/"
                                   onClick={[Function]}
                                   role="button"
                                   size="xsmall"
                                 >
                                   <ExternalLink
+                                    aria-disabled={false}
                                     aria-label="Track deploys"
                                     className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                    disabled={false}
                                     href="https://docs.sentry.io/learn/releases/"
                                     onClick={[Function]}
                                     rel="noreferrer noopener"
@@ -793,9 +793,9 @@ exports[`ProjectCard renders 1`] = `
                                     target="_blank"
                                   >
                                     <a
+                                      aria-disabled={false}
                                       aria-label="Track deploys"
                                       className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                      disabled={false}
                                       href="https://docs.sentry.io/learn/releases/"
                                       onClick={[Function]}
                                       rel="noreferrer noopener"
