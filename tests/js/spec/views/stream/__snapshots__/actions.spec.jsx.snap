@@ -168,7 +168,6 @@ exports[`StreamActions Bulk Total results < bulk limit bulk resolves 1`] = `
                 aria-disabled={false}
                 aria-label="Cancel"
                 className="css-cmo08-StyledButton-getColors eqrebog0"
-                disabled={false}
                 onClick={[Function]}
                 role="button"
                 style={
@@ -227,9 +226,7 @@ exports[`StreamActions Bulk Total results < bulk limit bulk resolves 1`] = `
                 autoFocus={true}
                 className="css-1msljz8-StyledButton-getColors eqrebog0"
                 data-test-id="confirm-modal"
-                disabled={false}
                 onClick={[Function]}
-                priority="primary"
                 role="button"
               >
                 <button
@@ -239,7 +236,6 @@ exports[`StreamActions Bulk Total results < bulk limit bulk resolves 1`] = `
                   className="css-1msljz8-StyledButton-getColors eqrebog0"
                   data-test-id="confirm-modal"
                   onClick={[Function]}
-                  priority="primary"
                   role="button"
                 >
                   <ButtonLabel
@@ -467,7 +463,6 @@ exports[`StreamActions Bulk Total results > bulk limit bulk resolves 1`] = `
                 aria-disabled={false}
                 aria-label="Cancel"
                 className="css-cmo08-StyledButton-getColors eqrebog0"
-                disabled={false}
                 onClick={[Function]}
                 role="button"
                 style={
@@ -526,9 +521,7 @@ exports[`StreamActions Bulk Total results > bulk limit bulk resolves 1`] = `
                 autoFocus={true}
                 className="css-1msljz8-StyledButton-getColors eqrebog0"
                 data-test-id="confirm-modal"
-                disabled={false}
                 onClick={[Function]}
-                priority="primary"
                 role="button"
               >
                 <button
@@ -538,7 +531,6 @@ exports[`StreamActions Bulk Total results > bulk limit bulk resolves 1`] = `
                   className="css-1msljz8-StyledButton-getColors eqrebog0"
                   data-test-id="confirm-modal"
                   onClick={[Function]}
-                  priority="primary"
                   role="button"
                 >
                   <ButtonLabel

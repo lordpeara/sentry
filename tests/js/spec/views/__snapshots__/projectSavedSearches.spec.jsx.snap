@@ -379,7 +379,6 @@ exports[`ProjectSavedSearches renders 1`] = `
                                               <Component
                                                 aria-disabled={false}
                                                 className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                                disabled={false}
                                                 onClick={[Function]}
                                                 role="button"
                                                 size="small"
@@ -692,7 +691,6 @@ exports[`ProjectSavedSearches renders 1`] = `
                                               <Component
                                                 aria-disabled={false}
                                                 className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                                disabled={false}
                                                 onClick={[Function]}
                                                 role="button"
                                                 size="small"

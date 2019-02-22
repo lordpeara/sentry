@@ -129,9 +129,7 @@ exports[`Configure should render correctly render() should render platform docs 
                       aria-disabled={false}
                       aria-label="Or See Sample Event"
                       className="eadl9o50 css-w2sk1s-StyledButton-getColors-StyledButton eqrebog0"
-                      disabled={false}
                       onClick={[Function]}
-                      priority="primary"
                       role="button"
                     >
                       <button
@@ -139,7 +137,6 @@ exports[`Configure should render correctly render() should render platform docs 
                         aria-label="Or See Sample Event"
                         className="eadl9o50 css-w2sk1s-StyledButton-getColors-StyledButton eqrebog0"
                         onClick={[Function]}
-                        priority="primary"
                         role="button"
                       >
                         <ButtonLabel
@@ -445,36 +442,49 @@ exports[`Configure should render correctly render() should render platform docs 
                                                         aria-disabled={false}
                                                         aria-label="< Back"
                                                         className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                                        disabled={false}
                                                         href="/testOrg/project-slug/getting-started/"
                                                         onClick={[Function]}
                                                         role="button"
                                                         size="small"
                                                       >
-                                                        <a
+                                                        <ExternalLink
                                                           aria-disabled={false}
                                                           aria-label="< Back"
                                                           className="css-dkprmi-StyledButton-getColors eqrebog0"
                                                           href="/testOrg/project-slug/getting-started/"
                                                           onClick={[Function]}
+                                                          rel="noreferrer noopener"
                                                           role="button"
                                                           size="small"
+                                                          target="_blank"
                                                         >
-                                                          <ButtonLabel
+                                                          <a
+                                                            aria-disabled={false}
+                                                            aria-label="< Back"
+                                                            className="css-dkprmi-StyledButton-getColors eqrebog0"
+                                                            href="/testOrg/project-slug/getting-started/"
+                                                            onClick={[Function]}
+                                                            rel="noreferrer noopener"
+                                                            role="button"
                                                             size="small"
+                                                            target="_blank"
                                                           >
-                                                            <Component
-                                                              className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                            <ButtonLabel
                                                               size="small"
                                                             >
-                                                              <span
+                                                              <Component
                                                                 className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                                size="small"
                                                               >
-                                                                &lt; Back
-                                                              </span>
-                                                            </Component>
-                                                          </ButtonLabel>
-                                                        </a>
+                                                                <span
+                                                                  className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                                >
+                                                                  &lt; Back
+                                                                </span>
+                                                              </Component>
+                                                            </ButtonLabel>
+                                                          </a>
+                                                        </ExternalLink>
                                                       </Component>
                                                     </StyledButton>
                                                   </Button>
@@ -512,8 +522,6 @@ exports[`Configure should render correctly render() should render platform docs 
                                                         aria-disabled={false}
                                                         aria-label="Full Documentation"
                                                         className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                                        disabled={false}
-                                                        external={true}
                                                         href="https://docs.getsentry.com/hosted/clients/csharp/"
                                                         onClick={[Function]}
                                                         role="button"
@@ -715,9 +723,7 @@ exports[`Configure should render correctly render() should render platform docs 
                         aria-label="All done!"
                         className="css-1msljz8-StyledButton-getColors eqrebog0"
                         data-test-id="configure-done"
-                        disabled={false}
                         onClick={[Function]}
-                        priority="primary"
                         role="button"
                       >
                         <button
@@ -726,7 +732,6 @@ exports[`Configure should render correctly render() should render platform docs 
                           className="css-1msljz8-StyledButton-getColors eqrebog0"
                           data-test-id="configure-done"
                           onClick={[Function]}
-                          priority="primary"
                           role="button"
                         >
                           <ButtonLabel

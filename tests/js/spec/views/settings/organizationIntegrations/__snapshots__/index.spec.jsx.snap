@@ -1135,7 +1135,6 @@ exports[`OrganizationIntegrations render() with installed integrations Displays 
                                       aria-disabled={false}
                                       aria-label="Add Another"
                                       className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                      disabled={false}
                                       onClick={[Function]}
                                       role="button"
                                       size="small"
@@ -1747,9 +1746,7 @@ exports[`OrganizationIntegrations render() with installed integrations Displays 
                                                     <Component
                                                       aria-disabled={true}
                                                       aria-label="Remove"
-                                                      borderless={true}
                                                       className="ejqw4f70 css-h1aems-StyledButton-getColors-StyledButton eqrebog0"
-                                                      disabled={true}
                                                       href={null}
                                                       onClick={[Function]}
                                                       role="button"
@@ -2605,7 +2602,6 @@ exports[`OrganizationIntegrations render() with installed integrations Displays 
                                       aria-disabled={false}
                                       aria-label="Add Another"
                                       className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                      disabled={false}
                                       onClick={[Function]}
                                       role="button"
                                       size="small"
@@ -3196,9 +3192,7 @@ exports[`OrganizationIntegrations render() with installed integrations Displays 
                                                     <Component
                                                       aria-disabled={true}
                                                       aria-label="Remove"
-                                                      borderless={true}
                                                       className="ejqw4f70 css-h1aems-StyledButton-getColors-StyledButton eqrebog0"
-                                                      disabled={true}
                                                       href={null}
                                                       onClick={[Function]}
                                                       role="button"
@@ -4420,7 +4414,6 @@ exports[`OrganizationIntegrations render() without integrations Displays integra
                                       aria-disabled={false}
                                       aria-label="Install"
                                       className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                      disabled={false}
                                       onClick={[Function]}
                                       role="button"
                                       size="small"
@@ -5183,7 +5176,6 @@ exports[`OrganizationIntegrations render() without integrations Displays integra
                                       aria-disabled={false}
                                       aria-label="Install"
                                       className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                      disabled={false}
                                       onClick={[Function]}
                                       role="button"
                                       size="small"

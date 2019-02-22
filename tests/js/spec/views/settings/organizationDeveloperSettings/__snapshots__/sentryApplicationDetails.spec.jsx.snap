@@ -18853,9 +18853,7 @@ exports[`Sentry Application Details edit existing application renders() it shows
                         aria-label="Save Changes"
                         className="css-1msljz8-StyledButton-getColors eqrebog0"
                         data-test-id="form-submit"
-                        disabled={false}
                         onClick={[Function]}
-                        priority="primary"
                         role="button"
                         type="submit"
                       >
@@ -18865,7 +18863,6 @@ exports[`Sentry Application Details edit existing application renders() it shows
                           className="css-1msljz8-StyledButton-getColors eqrebog0"
                           data-test-id="form-submit"
                           onClick={[Function]}
-                          priority="primary"
                           role="button"
                           type="submit"
                         >
@@ -33872,9 +33869,7 @@ exports[`Sentry Application Details new sentry application renders() it shows em
                         aria-label="Save Changes"
                         className="css-1msljz8-StyledButton-getColors eqrebog0"
                         data-test-id="form-submit"
-                        disabled={false}
                         onClick={[Function]}
-                        priority="primary"
                         role="button"
                         type="submit"
                       >
@@ -33884,7 +33879,6 @@ exports[`Sentry Application Details new sentry application renders() it shows em
                           className="css-1msljz8-StyledButton-getColors eqrebog0"
                           data-test-id="form-submit"
                           onClick={[Function]}
-                          priority="primary"
                           role="button"
                           type="submit"
                         >

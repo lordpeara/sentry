@@ -422,7 +422,6 @@ exports[`CreateProject should render roles when available and allowed, and handl
                               aria-disabled={false}
                               className="css-dkprmi-StyledButton-getColors eqrebog0"
                               data-test-id="select-all"
-                              disabled={false}
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -820,11 +819,8 @@ exports[`CreateProject should render roles when available and allowed, and handl
           <Component
             aria-disabled={false}
             aria-label="Add Member"
-            busy={false}
             className="invite-member-submit css-1msljz8-StyledButton-getColors eqrebog0"
-            disabled={false}
             onClick={[Function]}
-            priority="primary"
             role="button"
           >
             <button
@@ -832,7 +828,6 @@ exports[`CreateProject should render roles when available and allowed, and handl
               aria-label="Add Member"
               className="invite-member-submit css-1msljz8-StyledButton-getColors eqrebog0"
               onClick={[Function]}
-              priority="primary"
               role="button"
             >
               <ButtonLabel

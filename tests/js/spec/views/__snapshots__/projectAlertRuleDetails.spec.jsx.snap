@@ -721,7 +721,6 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
                                           <Component
                                             aria-disabled={false}
                                             className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                            disabled={false}
                                             onClick={[Function]}
                                             role="button"
                                             size="small"
@@ -1540,7 +1539,6 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
                                           <Component
                                             aria-disabled={false}
                                             className="css-dkprmi-StyledButton-getColors eqrebog0"
-                                            disabled={false}
                                             onClick={[Function]}
                                             role="button"
                                             size="small"
@@ -2441,7 +2439,6 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
                                 aria-disabled={false}
                                 aria-label="Cancel"
                                 className="elb7f1e1 css-tzavck-StyledButton-getColors-CancelButton eqrebog0"
-                                disabled={false}
                                 onClick={[Function]}
                                 role="button"
                                 to="/settings/org-slug/project-slug/alerts/rules/"
@@ -2497,9 +2494,7 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
                               aria-disabled={false}
                               aria-label="Save Rule"
                               className="css-1msljz8-StyledButton-getColors eqrebog0"
-                              disabled={false}
                               onClick={[Function]}
-                              priority="primary"
                               role="button"
                             >
                               <button
@@ -2507,7 +2502,6 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
                                 aria-label="Save Rule"
                                 className="css-1msljz8-StyledButton-getColors eqrebog0"
                                 onClick={[Function]}
-                                priority="primary"
                                 role="button"
                               >
                                 <ButtonLabel
@@ -4741,7 +4735,6 @@ exports[`ProjectAlertRuleDetails New alert rule renders 1`] = `
                                 aria-disabled={false}
                                 aria-label="Cancel"
                                 className="elb7f1e1 css-tzavck-StyledButton-getColors-CancelButton eqrebog0"
-                                disabled={false}
                                 onClick={[Function]}
                                 role="button"
                                 to="/settings/org-slug/project-slug/alerts/rules/"
@@ -4797,9 +4790,7 @@ exports[`ProjectAlertRuleDetails New alert rule renders 1`] = `
                               aria-disabled={false}
                               aria-label="Save Rule"
                               className="css-1msljz8-StyledButton-getColors eqrebog0"
-                              disabled={false}
                               onClick={[Function]}
-                              priority="primary"
                               role="button"
                             >
                               <button
@@ -4807,7 +4798,6 @@ exports[`ProjectAlertRuleDetails New alert rule renders 1`] = `
                                 aria-label="Save Rule"
                                 className="css-1msljz8-StyledButton-getColors eqrebog0"
                                 onClick={[Function]}
-                                priority="primary"
                                 role="button"
                               >
                                 <ButtonLabel

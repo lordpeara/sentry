@@ -757,7 +757,6 @@ exports[`Sentry App Installations when Apps exist displays all Apps owned by the
                             aria-disabled={false}
                             aria-label="Install"
                             className="btn btn-default css-dkprmi-StyledButton-getColors eqrebog0"
-                            disabled={false}
                             onClick={[Function]}
                             role="button"
                             size="small"
