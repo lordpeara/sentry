@@ -76,6 +76,7 @@ const GroupTagValues = createReactClass({
         loading: false,
       });
     } catch (rejections) {
+      // eslint-disable-next-line no-console
       console.error(rejections);
       this.setState({
         error: true,
