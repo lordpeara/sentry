@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import createReactClass from 'create-react-class';
 import {Link} from 'react-router';
+import styled from 'react-emotion';
 import ApiMixin from 'app/mixins/apiMixin';
 import {fetchProjectMembers} from 'app/actionCreators/members';
 import AssigneeSelector from 'app/components/assigneeSelector';
@@ -13,6 +14,7 @@ import ShortId from 'app/components/shortId';
 import EventOrGroupTitle from 'app/components/eventOrGroupTitle';
 import GuideAnchor from 'app/components/assistant/guideAnchor';
 import OrganizationState from 'app/mixins/organizationState';
+import ProjectBadge from 'app/components/idBadge/projectBadge';
 import Tooltip from 'app/components/tooltip';
 import {t} from 'app/locale';
 import SentryTypes from 'app/sentryTypes';
@@ -106,11 +108,14 @@ const GroupHeader = createReactClass({
     }
 
     const {memberList} = this.state;
+    const {organization, location} = this.context;
     const groupId = group.id;
-    const orgId = this.context.organization.slug;
+    const orgId = organization.slug;
     const message = this.getMessage();
 
     const hasSimilarView = projectFeatures.has('similarity-view');
+    const hasSentry10 = new Set(organization.features).has('sentry10');
+    const hasProjectAccess = new Set(organization.access).has('project:read');
 
     const baseUrl = params.projectId
       ? `/${orgId}/${params.projectId}/issues/`
@@ -173,6 +178,22 @@ const GroupHeader = createReactClass({
                 </div>
               )}
               <div className="count align-right m-l-1">
+                <h6 className="nav-header">{t('Project')}</h6>
+                {hasProjectAccess ? (
+                  <StyledLink
+                    to={
+                      hasSentry10
+                        ? `/organizations/${orgId}/issues/?project=${project.id}`
+                        : `/${orgId}/${project.slug}/`
+                    }
+                  >
+                    <ProjectBadge project={project} avatarSize={22} hideName={true} />
+                  </StyledLink>
+                ) : (
+                  <ProjectBadge project={project} avatarSize={22} hideName={true} />
+                )}
+              </div>
+              <div className="count align-right m-l-1">
                 <h6 className="nav-header">{t('Events')}</h6>
                 <Link to={`${baseUrl}${groupId}/events/`}>
                   <Count className="count" value={group.count} />
@@ -202,7 +223,7 @@ const GroupHeader = createReactClass({
             to={`${baseUrl}${groupId}/`}
             isActive={() => {
               const rootGroupPath = `${baseUrl}${groupId}/`;
-              const pathname = this.context.location.pathname;
+              const pathname = location.pathname;
 
               // Because react-router 1.0 removes router.isActive(route)
               return pathname === rootGroupPath || /events\/\w+\/$/.test(pathname);
@@ -230,5 +251,9 @@ const GroupHeader = createReactClass({
     );
   },
 });
+
+const StyledLink = styled(Link)`
+  display: inline-flex;
+`;
 
 export default GroupHeader;
